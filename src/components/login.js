@@ -16,10 +16,10 @@ class Login extends Component{
                                 <div className="card-header"><h4>Login</h4></div>
 
                                 <div className="card-body">
-                                    <form method="POST" action="#" className="needs-validation" novalidate="">
+                                    <form method="" action="/dashboard" className="needs-validation" novalidate="">
                                         <div className="form-group">
                                             <label for="email">Email</label>
-                                            <input id="email" type="email" className="form-control" name="email" tabindex="1" required autofocus/>
+                                            <input id="email" type="email" className="form-control" name="email" tabindex="1" autofocus/>
                                             <div className="invalid-feedback">
                                                 Please fill in your email
                                             </div>
@@ -34,7 +34,7 @@ class Login extends Component{
                                                     </a>
                                                 </div>
                                             </div>
-                                            <input id="password" type="password" className="form-control" name="password" tabindex="2" required/>
+                                            <input id="password" type="password" className="form-control" name="password" tabindex="2"/>
                                             <div className="invalid-feedback">
                                                 please fill in your password
                                             </div>
@@ -47,7 +47,7 @@ class Login extends Component{
                                         </div>
                                         <div className="form-group">
                                             <button type="submit" className="btn btn-primary btn-lg btn-block" tabindex="4">
-                                            Login
+                                                Login
                                             </button>
                                         </div>
                                     </form>
